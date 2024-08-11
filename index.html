@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas músicas favoritas</title>
+    <style>/*tag para estiliza o html  */
+        body {
+            font-family: Arial, sans-serif;/*tipo de fonte  */
+            background-color: #f0f0f0;/*cor de fundo */
+            text-align: center;/*alinha o texto no centro */
+            padding: 24px;/*define uma a distância entre o conteúdo de um elemento e suas bordas*/
+        }
+
+        h1 {
+            color: #4CAF50;  /* cor do texto  */
+          
+        }
+
+        .video-container {
+            display: flex;/* cria um layout flexível   */
+            justify-content: center;/* centraliza*/
+            flex-wrap: wrap;/* deixa um embaixo do outro*/
+            gap: 20px;/* distancia cada elemento*/
+        }
+
+        iframe {
+            border: 2px solid #4CAF50;/*borda*/
+            border-radius: 10px;/*raio da borda*/
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Minhas músicas favoritas:</h1>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xE4mI9LAfMQ?si=0r3Hfih-5kvm78Rs"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kJBuKY3ZWU4?si=PGHrHLdwqclp_z4C"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</body>
+
+</html>
